@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="keywords" content="code, développement web, HTML, CSS, blog, randonnée, chien">
+     <meta name="description" content="Blog Sur les sentiers avec Gaïa - développement web et randonnées.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="layout.css"> 
+    <link rel="stylesheet" href="page-articles.html">
+    <link rel="stylesheet" href="col-de-la-faucille.html">
+
+    <title>Sur les sentiers avec Gaïa</title>
+</head>
+<body class="home">
+    <div class="stars">
+      <span class="star"></span>
+      <span class="star"></span>
+      <span class="star"></span>
+      <span class="star"></span>
+      <span class="star"></span>
+      </div>
+     <div id="overlay">
+<div class="popup">
+<h2>Bienvenue "Sur les sentiers avec Gaïa"</h2>
+<p>Entrez votre prénom pour commencer l'aventure :</p>
+<input type="text" id="prenom">
+<button id="btn-prenom">Entrer</button>
+</div>
+</div>
+    <header>
+        <!-- Burger menu "mobil" -->
+ <div class="btn-burger">
+          <i class="fa-solid fa-bars"></i>
+          </div>
+        <nav class="burger-menu">
+          <ul class="links-burger">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="page-articles.html"> Toutes nos randonnées </a></li>
+            <li><a href="a-propos.html"> À propos de nous  </a></li>
+            <li><a href="contact.html"> Nous contacter</a></li>
+          </ul>
+        </nav>
+      </div>
+<img src="images/logo3.png" alt="logo desktop" class="logo-desktop 2" class="logo-desktop"/>
+             <!-- Naviguation desktop -->
+              <div class="nav-container">
+       <nav class="navbar">
+          <ul class="links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="page-articles.html"> Toutes nos randonnées </a></li>
+          <li><a href="a-propos.html"> À propos de nous  </a></li>
+          <li><a href="contact.html"> Nous contacter</a></li>
+          </ul>
+        </nav>
+<form class="search-bar">
+    <input
+        type="search"
+        id="search"
+        placeholder="Rechercher une randonnée...">
+    <button type="submit">
+     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free v7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path opacity="0.8" fill="rgb(255, 255, 255)" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376C296.3 401.1 253.9 416 208 416 93.1 416 0 322.9 0 208S93.1 0 208 0 416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+    </button>
+    </form>
+  </div>
+<!-- Dark mode -->
+<!-- From Uiverse.io by JustCode14 --> 
+<label class="switch">
+  <input id="checkbox" type="checkbox" />
+  <span class="slider">
+    <div class="star star_1"></div>
+    <div class="star star_2"></div>
+    <div class="star star_3"></div>
+    <svg viewBox="0 0 16 16" class="cloud_1 cloud">
+      <path
+        transform="matrix(.77976 0 0 .78395-299.99-418.63)"
+        fill="#fff"
+        d="m391.84 540.91c-.421-.329-.949-.524-1.523-.524-1.351 0-2.451 1.084-2.485 2.435-1.395.526-2.388 1.88-2.388 3.466 0 1.874 1.385 3.423 3.182 3.667v.034h12.73v-.006c1.775-.104 3.182-1.584 3.182-3.395 0-1.747-1.309-3.186-2.994-3.379.007-.106.011-.214.011-.322 0-2.707-2.271-4.901-5.072-4.901-2.073 0-3.856 1.202-4.643 2.925"
+      ></path>
+    </svg>
+  </span>
+</label>
+</header>
+    <main>
+      <section class="hero">
+        <div class="hero-text">
+        <h1> Explorer.</br> Randonner.</br> S'émerveiller.</h1>
+        <p> Des idées de randonnées, des conseils et des aventures à partager avec ton chien.</p>
+        </div>
+        <div class="bannière"> 
+        <img src="images/image-home.png" alt="moi et Gaïa" class="image-bannière-mobile"/>
+       <p class="welcome-message"></p>
+        <button><a href="page-articles.html"> Découvir nos randonnées </a></button>
+      </div>
+      <div class="banniere-tablette">
+      <img src="images/banière-deco.jpg" alt="illustrationd'une forêt" class="bannière-tablette"/>
+      <p class="welcome-message"></p>
+      <button> Découvir nos randonnées </button>
+    </div>
+      </div>
+
+      <div class="banniere-desktop">
+      <img src="images/banniere-desk3.png" alt="photo d'un point de vue d'une randonnée"/>
+       <p class="welcome-message"> </p>
+      <div class="hero-text-desktop">
+      <h1> Explorer.</br> Randonner.</br> S'émerveiller.</h1>
+        <p> Des idées de randonnées, des conseils et des aventures à partager avec ton chien.</p>
+        <button> Découvir nos randonnées </button>
+      </div>
+      </div>
+      </section>
+   <h2>🌲 Nos dernières randonnées</h2>
+   <!-- CARTES -->
+
+    <section class="cards">
+        <article class="card">
+          <!-- TODO: Ajouter le lien vers la page article de la rando  -->
+          <a href="crete-des-roches.html">
+            <img
+              src="images/cret-des-roches.jpg"
+              alt="image de la crête des roches"/>
+               <div class="bottom-card">  
+<span class="difficulty-easy">FACILE</span>
+<div class="card-title">
+            <h3>Crête des roches</h3>
+            <span class="arrow">›</span>
+            </div>  
+            </div>
+            <ul class="rando-infos">
+<li>🥾 8 km</li>
+<li>🕒 3 h</li>
+<li>⛰️ 250 m D+</li>
+</ul>
+          </a>
+        </article>
+
+     <article class="card">
+          <!-- TODO: Ajouter le lien vers la page article de la rando  -->
+          <a href="col-de-la-faucille.html">
+            <img
+              src="images/card-col-de-la-faucille.jpg.webp"
+              alt="image du col de la faucille "/>
+               <div class="bottom-card">
+              <div class="card-infos">
+<span class="difficulty-medium">Moyen</span>
+</div>  
+<div class="card-title">
+            <h3>Col de la Faucille</h3>
+            <span class="arrow">›</span>
+            </div>
+            <ul class="rando-infos">
+<li>🥾 8 km</li>
+<li>🕒 3 h</li>
+<li>⛰️ 250 m D+</li>
+</ul>
+</div>
+          </a>
+        </article>
+        
+        <article class="card">
+          <!-- TODO: Ajouter le lien vers la page article de la rando  -->
+          <a href="saut-du-doubs.html">
+            <img
+              src="images/card-saut-du-doubs.jpg"
+              alt="image du saut du Doubs"/>
+              <div class="bottom-card">
+<span class="difficulty-hard">Difficile</span>
+<div class="card-title">
+            <h3>Saut du Doubs</h3>
+            <span class="arrow">›</span>
+            </div>
+            <ul class="rando-infos">
+<li>🥾 8 km</li>
+<li>🕒 3 h</li>
+<li>⛰️ 250 m D+</li>
+</ul>
+</div>
+          </a>
+         
+        </article>
+        <article class="card">
+          <a href="page-articles.html">
+            <img src="images/image-home.png" alt="moi et Gaïa"/>
+            <button class="btn-pa"> Voir toutes les randonnées </button>
+          </a>
+
+        </article>
+        </section>
+        </main>
+<a href="#" class="scroll-top" title="Retourner en haut de page">
+  <svg width="32" height="32" viewBox="0 0 24 24" aria-hidden="true">
+    <g fill="none">
+      <path d="M24 0v24H0V0zM12.6 23.3h-.2v.5h.2v-.5m.3-.2-.2.1v.5l.2.1v-.6m-.8 0v.6h.2v-.5z" />
+      <path fill="currentColor" d="M13 3.3a1.5 1.5 0 0 0-2 0L5.2 8.9a1.5 1.5 0 0 0 2.1 2.2L10.5 8v11.5a1.5 1.5 0 0 0 3 0V8l3.1 3a1.5 1.5 0 1 0 2.1-2z" />
+    </g>
+  </svg>
+</a>
+<footer>
+  <img src="images/footer.png" alt="illustration de montagne avec une patte de chien"/>
+  <div class="footer-content">
+  <p>
+© 2026 Sur les sentiers avec Gaïa
+</p>
+<p> Tous droits réservés</p>
+</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
